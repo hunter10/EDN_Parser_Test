@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using EDN;
 
+
 namespace EDNParserTest2
 {
     class Program
@@ -17,11 +18,14 @@ namespace EDNParserTest2
             try
             {
                 TestSampleCustomHandler();
+                //system("pause");
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
             }
+
+            Console.ReadKey();
         }
 
         public static void TestSampleCustomHandler()
@@ -57,6 +61,7 @@ namespace EDNParserTest2
             //                            \":email \\"\\", :locale \\"\\", :gender \\"\\"}, :events [{:uid \\"c52adce5-b265-4bf2-869a-8a62a7ff3566\\", :id 1, :info {:money 1500000}}], :create-time 1421913847144, :game {:slotmachine {:freespin-count 0, :bet-amount 200}}}}}\");
             Console.WriteLine("----------------------------------");
             Console.WriteLine(Util.pprint(ref someMap));
+            //System.Diagnostics.Debug.WriteLine(Util.pprint(ref someMap));
 
         }
     }

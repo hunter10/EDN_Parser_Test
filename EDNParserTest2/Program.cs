@@ -41,7 +41,13 @@ namespace EDNParserTest2
             //EdnNode someMap = Util.read(\"{\\"a\\"50\\"b\\"100}\");
             //EdnNode someMap = Util.read("\"a\"[0 1 2 3 4]");
             //EdnNode someMap = Util.read("{\"a\" 50 \"b\" 100 }");
-            EdnNode someMap = Util.read("{\"eventJackpot\"[1.00100326E8 5005978.0 2003956.0]\"jackpotResult\"[[100000 100000 140000 160000 200000 200000 300000 400000 400000 0][0 1 2 3 4 5 6 7 8 9]]}");
+            //EdnNode someMap = Util.read("{\"eventJackpot\"[1.00100326E8 5005978.0 2003956.0]\"jackpotResult\"[[100000 100000 140000 160000 200000 200000 300000 400000 400000 0][0 1 2 3 4 5 6 7 8 9]]}");
+            //EdnNode someMap = Util.read("{\"eventJackpot\"[1.00100326E8 5005978.0 2003956.0]\"jackpotResult\"[[100000 100000 140000 160000 200000 200000 300000 400000 400000 0][0 1 2 3 4 5 6 7 8 9][32323232]]}");
+            EdnNode someMap = Util.read("{\"cmd\"\"SSpinSlotmachine\"\"data\"{\"chips\"2292699184\"eventJackpot\"[5.0001219E7 2510487.0 1007224.0]\"dataMode\"\"game\"\"backs\"\"backs\"\"gameMode\"\"race\"\"reelIndex\"[9 10 29 16 4]\"scatter\"{\"count\"0\"pay\"12500}\"userToken\"\"Akoz11\"\"event\"1\"freespin\"0\"slotId\"\"1iynrmvk1k3zp\"\"wildReelIndex\"nil\"bingo\"{17{\"wild\"1\"count\"3\"symbol\"\"watermelon\"\"pay\"0}18{\"wild\"2\"count\"3\"symbol\"\"watermelon\"\"pay\"0}3{\"wild\"2\"count\"3\"symbol\"\"cherry\"\"pay\"0}13{\"wild\"1\"count\"3\"symbol\"\"cherry\"\"pay\"0}}\"jackpot\"61385.0\"eventJackpotResult\"[[25000 25000 35000 40000 50000 50000 75000 100000 100000 0][0 1 2 3 4 5 6 7 8 9][0]]}}");
+
+ 
+ 
+
 
             //EdnNode someMap = Util.read(\"{\\"cmd\\"\\"SStageEnd\\"\\"data\\"{\\"tableId\\"\\"uv6d8h7jf0vn\\"\\"highAward\\"{\\"overage\\"[nil nil]\\"high\\"[\\"20,[Akoz1]\\"]\\"low\\"nil}\\"svrDate\\"\\"20150327190717\\"}}\");
             //EdnNode someMap = Util.read(\"{\\"cmd\\"\\"SStageEnd\\"\\"data\\"{\\"tableId\\"\\"uv6d8h7jf0vn\\"\\"highAward\\"{\\"overage\\"[nil nil]\\"high\\"[20,[Akoz1],30,[Akoz2]]\\"low\\"nil}\\"svrDate\\"\\"20150327190717\\"}}\");
